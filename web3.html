@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="web3.css">
+    <title>web3_js</title>
+</head>
+<body>
+    <div class="Loan_calculator">
+        <h1>Loan Calculator</h1>
+        <p>Loan amount:
+            <input type="number" id="amount" placeholder="Enter amount..">
+        </p>
+        <p>Rate (Interest): %
+            <input step=".1" id="rate" placeholder="Enter rate..">
+        </p>
+        <p>Months (Time):
+            <input type="number" id="time" placeholder="Enter time..">
+        </p>
+        <input type="button" value="Calculate" id="calculate_btn" onclick="calculate()">
+        <p>Total EMI:
+            <span id="output"></span>
+        </p>
+    </div>
+    <script src="web3.js"></script>
+</body>
+</html>
